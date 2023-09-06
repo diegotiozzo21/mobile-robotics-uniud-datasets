@@ -2,7 +2,7 @@
 
 <img src="img/uniud.jpg" width="200" />
 
-This repository contains datasets collected using AgileX mobile robots in different scenarios. 
+This repository contains datasets collected using AgileX mobile robots in different scenarios of the University of Udine (Italy). 
 
 Data acquisition is performed with the robot moving autonomously following a predefined path (unless otherwise stated). More details on the navigation method used are reported on the related paper. 
 
@@ -123,7 +123,7 @@ Topics list:
 /velodyne_points
 ```
 
-**Info**: Be careful! Poses published in the *tf* topic are also available in this dataset. Do not play that topic if you are using another localization algorithm. Use for instance: 
+**Info**: GNSS data are corrected by means of a NTRIP client. Be careful! Poses published in the *tf* topic are also available in this dataset. Do not play that topic if you are using another localization algorithm. Use for instance: 
 
 ```
 rosbag play [bagfilename] --topic [topicname1] [topicname2]
