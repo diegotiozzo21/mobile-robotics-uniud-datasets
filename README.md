@@ -9,6 +9,8 @@ This repository contains datasets collected using AgileX mobile robots in differ
 
 **GNSS receiver**: Ardusimple simpleRTK2B Budget [datasheet](https://www.ardusimple.com/simplertk2b-hookup-guide/)
 
+**Info**: The following information applies to everything below unless otherwise stated! The Velodyne LiDAR sensor range is set to 100 m and LiDAR point clouds are published at 10 Hz in the topic *velodyne_points*. The IMU sensor reference frame is considered coincident with the LiDAR sensor reference frame, i.e., the $x$ axis points forward and the $z$ axis points upward. The magnetometer reports the pose of the robot with respect to a fixed ENU reference frame (i.e., $x$ axis points to the East, $y$ axis points to the North, and $z$ axis points up). IMU data are published at 200 Hz in the topic */imu/data*. GNSS data are published at 1 Hz in the topic */ublox_position_receiver/fix*. 
+
 -----
 
 ## Uniud Rizzi campus - Single corridor/Squared plant
@@ -19,13 +21,17 @@ This repository contains datasets collected using AgileX mobile robots in differ
 
 <img src="img/single_corridor.jpg" width="400" />
 
-**Download dataset**: 
+### Single corridor
+**Download dataset at**: [download_link](https://uniudamce-my.sharepoint.com/:u:/g/personal/diego_tiozzo_uniud_it/EbvGEXrWFihMlHSk3xHcQRwBXyPgFy4TIit5rChXjifMvw?e=Wb9pfU)
 
-Topics list: 
+### Squared plant 
+**Download dataset at**: [download_link](https://uniudamce-my.sharepoint.com/:u:/g/personal/diego_tiozzo_uniud_it/EXaexaymhVVDlyMibmMuPGoBpMj-5L6y5YDryUugMQBj6A?e=AlItvO)
+
+Relevant topics list: 
 ```
-\velodyne_points
+/imu/data
+/velodyne_points
 ```
-**Info**: 
 
 Thank you for citing [Tiozzo Fasiolo, D et al. (2023)]([./config/doc/paper.pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D5B49F3F7FC0992EE0CA3A6DD85BAAB8/S026357472300053Xa.pdf/comparing_lidar_and_imubased_slam_approaches_for_3d_robotic_mapping.pdf)) if you use any of this data.
 ```
@@ -49,12 +55,13 @@ Thank you for citing [Tiozzo Fasiolo, D et al. (2023)]([./config/doc/paper.pdf](
 
 <img src="img/courtyard.jpg" width="400" />
 
-Topics list: 
-```
-\velodyne_points
-```
+**Download dataset at**: 
 
-**Info**: 
+Relevant topics list: 
+```
+/imu/data
+/velodyne_points
+```
 
 Thank you for citing [Tiozzo Fasiolo, D et al. (2023)]([./config/doc/paper.pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D5B49F3F7FC0992EE0CA3A6DD85BAAB8/S026357472300053Xa.pdf/comparing_lidar_and_imubased_slam_approaches_for_3d_robotic_mapping.pdf)) if you use any of this data.
 ```
