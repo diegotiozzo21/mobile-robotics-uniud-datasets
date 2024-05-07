@@ -35,6 +35,8 @@ Data acquired in a single corridor of the west wing of the Rizzi building (40 m 
 
 **Download dataset at**: [download_link](https://uniudamce-my.sharepoint.com/:u:/g/personal/diego_tiozzo_uniud_it/EbvGEXrWFihMlHSk3xHcQRwBXyPgFy4TIit5rChXjifMvw?e=Wb9pfU)
 
+**The TLS ground truth is available at**: [download_link](https://uniudamce-my.sharepoint.com/personal/eleonora_maset_uniud_it/_layouts/15/onedrive.aspx?ct=1715087795438&or=OWA%2DNT%2DMail&cid=c492b482%2D16c5%2D7b26%2D7a6e%2D30fde1dbb084&ga=1&LOF=1&id=%2Fpersonal%2Feleonora%5Fmaset%5Funiud%5Fit%2FDocuments%2FTLS%5Fpaper%5FRobotica%5F2023)
+
 ### Squared plant 
 Data acquired in the whole squared plant of the west wing of the Rizzi building (80 × 80 m, measured along the center line of the corridors). During the survey new and unknown portions of the building are explored.
 
@@ -79,7 +81,7 @@ Relevant topics list:
 /imu/data
 /velodyne_points
 ```
-
+**The TLS ground truth is available at**: [download_link](https://uniudamce-my.sharepoint.com/personal/eleonora_maset_uniud_it/_layouts/15/onedrive.aspx?ct=1715087795438&or=OWA%2DNT%2DMail&cid=c492b482%2D16c5%2D7b26%2D7a6e%2D30fde1dbb084&ga=1&LOF=1&id=%2Fpersonal%2Feleonora%5Fmaset%5Funiud%5Fit%2FDocuments%2FTLS%5Fpaper%5FRobotica%5F2023)
 
 Thank you for citing [Tiozzo Fasiolo, D et al. (2023)]([./config/doc/paper.pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D5B49F3F7FC0992EE0CA3A6DD85BAAB8/S026357472300053Xa.pdf/comparing_lidar_and_imubased_slam_approaches_for_3d_robotic_mapping.pdf)) if you use any of this data.
 ```
@@ -137,7 +139,7 @@ rosbag play [bagfilename] --topic [topicname1] [topicname2]
 
 <img src="img/servadei2022.jpg" width="400" />
 
-**Download dataset at**: data will be available as soon as the paper is published :(
+**Download dataset at**: [download_link](https://uniudamce-my.sharepoint.com/:u:/g/personal/diego_tiozzo_uniud_it/ERGkHDJzcVtBl8iHcffJcVYBQfQs8jZeBzTxBqAFemduIA?e=bOo73K)
 
 ```
 /imu/data
