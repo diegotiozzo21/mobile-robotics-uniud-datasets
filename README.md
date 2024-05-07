@@ -139,7 +139,9 @@ rosbag play [bagfilename] --topic [topicname1] [topicname2]
 
 <img src="img/servadei2022.jpg" width="400" />
 
-**Download dataset at**: [download_link](https://uniudamce-my.sharepoint.com/:u:/g/personal/diego_tiozzo_uniud_it/ERGkHDJzcVtBl8iHcffJcVYBQfQs8jZeBzTxBqAFemduIA?e=bOo73K)
+**Download June dataset at**: [download_link](https://uniudamce-my.sharepoint.com/:u:/g/personal/diego_tiozzo_uniud_it/EfcjCFBluR1HlosYYgfpN6oBxTbaG6vOKD4FujdV1PQ4yA?e=ZTxPmh)
+**Download July dataset at**: [download_link](https://uniudamce-my.sharepoint.com/:u:/g/personal/diego_tiozzo_uniud_it/ERGkHDJzcVtBl8iHcffJcVYBQfQs8jZeBzTxBqAFemduIA?e=Eu2Kcs)
+**Download December dataset at**: [download_link](https://uniudamce-my.sharepoint.com/:u:/g/personal/diego_tiozzo_uniud_it/EePOjD4YvMJOjphRMkIxQlABJBhbQnTpDnicerUh8icWHw?e=g6H1Fj)
 
 ```
 /imu/data
